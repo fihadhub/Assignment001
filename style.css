@@ -1,21 +1,17 @@
 body{
     background-color: #f5f8ff;
 }
-.open-sans-{
-  font-family: "Open Sans", sans-serif;
+
+.inter-{
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-    
 }
 
-.open-sans-2{
-  font-family: "Open Sans", sans-serif;
+.raleway-{
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 /* navbar-section start here */
 .navbar{
@@ -35,7 +31,7 @@ body{
 .nav-heading{
     font-size: 34px;
     color: #4E47FF;
-    font-weight:bolder;
+    font-weight:900;
 }
 .nav-button{
     width: 132px;
@@ -112,25 +108,26 @@ body{
     width: 1140px;
     height: 306px;
     border-radius:30px;
-    padding-top: 20px;
+    padding-top: 15px;
     margin-top: 118px;
 }
 .user-heading{
     font-size: 38px;
     font-weight: bold;
     color: #252432;
+    margin-bottom: 10px;
     
 }
 .heading{
     font-size: 80px;
     font-weight: bold;
     color:  #4E47FF;
-    margin-bottom: 0;
+    margin-bottom:0;
 }
 .para{
     font-size: 20px;
     color:#2524326c;
-    margin-top: 0;
+    margin-top:-50px;
 }
 .user-subtitle{
     width: 856px;
@@ -156,7 +153,6 @@ label,textarea{
     display: block;
     font-size: 22px;
     font-weight: 500;
-    margin-bottom: 10px;
 }
 #info{
     width: 497px;
@@ -168,6 +164,7 @@ label,textarea{
 .touch-heading{
     font-size: 90px;
     font-weight: bold;
+    color: #070707;
 }
 input{
     width: 497px;
@@ -195,22 +192,24 @@ input{
 }
 /* footer-section start here */
 footer{
-    width: 1440px;
+    max-width:1440px;
     height: 428px;
     margin: 0 auto;
     text-align: center;
     background-color: #FFFFFF;
-    padding-top: 70px;
+    padding-top: 3px;
 }
 h1{
     font-size: 100px;
     color: #4E47FF;
-    margin-bottom: 0;
+    margin-bottom: -50px;
 }
-h3{
+p{
     font-size: 16;
     font-weight: 400;
     color: #8987A1;
+    padding-bottom: -50px;
+    line-height: 20px;
 }
 a{
     text-decoration: none;
@@ -249,10 +248,12 @@ button:hover{
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: -10px;
 }
 .feedback-img{
     width: 116px;
     height: 20px;
+    margin-bottom:-15px;
 }
 .reviewers-img{
     width: 40px;
@@ -264,21 +265,26 @@ button:hover{
     font-size: 16px;
     font-weight: 600;
     color: #757575;
-    margin-bottom: 0;
+    margin-bottom: -10px;
+    margin-top: 20px;
 }
 .date{
     font-size: 16px;
     margin-top: 6px;
     font-weight: 200;
     color: #B3B3B3;
+     margin-top: -10px;
 }
 .reviewers-subtitle{
     font-size: 16px;
-    margin-top: 0;
+    margin-top:-5px ;
+    line-height: 20px;
+    
 }
 .reviewers-title{
-    margin-bottom: 5px;
+    margin-bottom:-5px;
     font-size: 24px;
+    margin-top: 30px;
 }
 .container{
     display: flex;
@@ -303,7 +309,6 @@ button:hover{
 .focus-subtitle{
     font-size: 16px;
     color: #0000004a;
-    margin-bottom: 20px;
 }
 .focus-button{
     width: 195px;
